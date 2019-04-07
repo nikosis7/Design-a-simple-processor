@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/lab5vfinal/test_datapath_isim_beh.exe" -prj "C:/lab5vfinal/test_datapath_beh.prj" "work.test_datapath" 

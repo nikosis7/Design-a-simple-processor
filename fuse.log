@@ -1,0 +1,80 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/lab5vfinal/test_datapath_isim_beh.exe -prj C:/lab5vfinal/test_datapath_beh.prj work.test_datapath 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/lab5vfinal/regarray.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/fulladder.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/shift_rotate.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/RegEn.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/mux32.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/mux2.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/logical.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/Decoder.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/CompareModule.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/arithmetic.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/RegisterFile.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/Register.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/PC.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/mux5.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/mux4.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/ImmedTo32.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/IF_MEM.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/Data_MEM.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/ALU.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/addImmed.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/Stall.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/pipeline.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/MEMSTAGE.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/IFSTAGE.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/Forward.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/DECSTAGE.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/control.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/ALUSTAGE.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/Datapath.vhd" into library work
+Parsing VHDL file "C:/lab5vfinal/test_datapath.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity fulladder [fulladder_default]
+Compiling architecture behavioral of entity addImmed [addimmed_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture syn of entity IF_MEM [if_mem_default]
+Compiling architecture behavioral of entity IFSTAGE [ifstage_default]
+Compiling architecture behavioral of entity Reg [reg_default]
+Compiling architecture behavioral of entity Control [control_default]
+Compiling architecture behavioral of entity Stall [stall_default]
+Compiling package regarray_type
+Compiling architecture behavioral of entity mux5 [mux5_default]
+Compiling architecture behavioral of entity ImmedTo32 [immedto32_default]
+Compiling package numeric_std
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity Mux32 [mux32_default]
+Compiling architecture behavioral of entity CompareModule [comparemodule_default]
+Compiling architecture behavioral of entity mux2 [mux2_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity DECSTAGE [decstage_default]
+Compiling architecture behavioral of entity RegEn [regen_default]
+Compiling architecture behavioral of entity pipeline [pipeline_default]
+Compiling architecture behavioral of entity Forward [forward_default]
+Compiling architecture behavioral of entity mux4 [mux4_default]
+Compiling architecture behavioral of entity arithmetic [arithmetic_default]
+Compiling architecture behavioral of entity logical [logical_default]
+Compiling architecture behavioral of entity shift_rotate [shift_rotate_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity ALUSTAGE [alustage_default]
+Compiling architecture syn of entity Data_MEM [data_mem_default]
+Compiling architecture behavioral of entity MEMSTAGE [memstage_default]
+Compiling architecture behavioral of entity Datapath [datapath_default]
+Compiling architecture behavior of entity test_datapath
+Time Resolution for simulation is 1ps.
+Waiting for 29 sub-compilation(s) to finish...
+Compiled 65 VHDL Units
+Built simulation executable C:/lab5vfinal/test_datapath_isim_beh.exe
+Fuse Memory Usage: 42648 KB
+Fuse CPU Usage: 1357 ms
